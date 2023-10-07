@@ -14,7 +14,7 @@ device = 'cpu'
 
 # get models
 path_to_sn = './models/epoch=39-step=11280.ckpt'
-comparison_model = model.get_siamese_model(path_to_sn, device='cpu')
+comparison_model = model.get_siamese_model(path_to_sn, device=device)
 
 scripted_model = torch.jit.load('./models/detector_scripted.pt', map_location=torch.device(device))
 scripted_model = scripted_model.eval().to(device).float()
