@@ -8,6 +8,11 @@ Pursuit car detection can be a crucial task for a business. The pipeline allows 
 - reidentificate objects
 - highlight that the object presents on the screen for too long time
 
+# Demo (speeded-up artificially)
+
+https://github.com/dariaip/video_analytics/assets/41380940/462ed0d9-02a9-4ba5-a2aa-ccbbcb6660d6
+
+
 # How to run the pipeline
 ```python -m venv venv``` *(I use python 3.10)*
 
